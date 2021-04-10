@@ -12,7 +12,7 @@
 
 @end
 
-@implementation SceneDelegate
+API_AVAILABLE(ios(13.0)) @implementation SceneDelegate
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {

@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MetrixSdk/MetrixSdk.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, MetrixDelegate>
-
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property (strong, nonatomic) UIWindow *window;
 
 @end
 

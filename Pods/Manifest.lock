@@ -1,16 +1,16 @@
 PODS:
-  - MetrixSdk (1.2.2)
+  - Metrix (2.0.0-beta8)
 
 DEPENDENCIES:
-  - MetrixSdk (< 2.0, >= 1.2.2)
+  - Metrix (= 2.0.0-beta8)
 
 SPEC REPOS:
   trunk:
-    - MetrixSdk
+    - Metrix
 
 SPEC CHECKSUMS:
-  MetrixSdk: 4258468a9ea8181ef9059330134a2ba66f888a10
+  Metrix: c5abc7f064e02dce1fb72f542e5d4d13aaf3b8e3
 
-PODFILE CHECKSUM: c2446733e4f253a9cfa2459bee996a0efc6fa55c
+PODFILE CHECKSUM: d8e69cb547fed779d3332039aa41ba6cffca4af2
 
 COCOAPODS: 1.9.3

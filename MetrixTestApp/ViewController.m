@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <MetrixSdk/MetrixSdk.h>
-#import <MetrixSdk/MXCurrency.h>
+@import Metrix;
 
 @interface ViewController ()
 
@@ -21,30 +20,21 @@
     [super viewDidLoad];
     
      // Do any additional setup after loading the view.
-    NSString *mxid = [Metrix mxid];
-    NSString *prefix = @"Metrix UserId: ";
-    self.userIdLabel.text = [NSString stringWithFormat:@"%@%@", prefix, mxid];
 }
 
 - (IBAction)btnSendEvent:(id)sender {
-        NSMutableDictionary *myAttributes = [[NSMutableDictionary alloc] init];
-        NSMutableDictionary *myMetrics = [[NSMutableDictionary alloc] init];
-        myAttributes[@"first_name"] = @"Ali";
-        myAttributes[@"last_name"] = @"Bagheri";
-        myAttributes[@"manufacturer"] = @"Nike";
-        myAttributes[@"product_name"] = @"shirt";
-        myAttributes[@"type"] = @"sport";
-        myAttributes[@"size"] = @"large";
-        MXCustomEvent *event = [MXCustomEvent newEvent:@"msdok" attributes:myAttributes metrics:myMetrics];
-        [Metrix trackCustomEvent:event];
+    [Metrix newEventWithSlug: @"qixcu" attributes:@{@"name": @"matin"}];
+    [Metrix newEventWithSlug: @"qixcu"];
 }
 
 - (IBAction)sendRevenueClick:(id)sender {
-    [Metrix trackRevenue:@"giaoj" withValue:@12000 currency:IRR orderId:@"myOrderId"];
+    [Metrix newRevenueWithSlug: @"ubdya" revenue:124.0];
+    [Metrix newRevenueWithSlug: @"ubdya" revenue: 12.6 currency: RevenueCurrencyUSD];
+    [Metrix newRevenueWithSlug: @"ubdya" revenue: 32.6 orderId: @"someOrderId"];
+    [Metrix newRevenueWithSlug: @"ubdya" revenue: 1244 currency: RevenueCurrencyEUR orderId: @"someOrderId2"];
 }
 
 - (IBAction)getAttributionClick:(id)sender {
-    [Metrix requestAttribution];
 }
 
 
