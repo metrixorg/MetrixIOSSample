@@ -23,15 +23,15 @@
 }
 
 - (IBAction)btnSendEvent:(id)sender {
-    [Metrix newEventWithSlug: @"qixcu" attributes:@{@"name": @"matin"}];
-    [Metrix newEventWithSlug: @"qixcu"];
+    [Metrix newEventWithSlug: @"jqgjh" attributes:@{@"name": @"matin"}];
+    [Metrix newEventWithSlug: @"jqgjh"];
 }
 
 - (IBAction)sendRevenueClick:(id)sender {
-    [Metrix newRevenueWithSlug: @"ubdya" revenue:124.0];
-    [Metrix newRevenueWithSlug: @"ubdya" revenue: 12.6 currency: RevenueCurrencyUSD];
-    [Metrix newRevenueWithSlug: @"ubdya" revenue: 32.6 orderId: @"someOrderId"];
-    [Metrix newRevenueWithSlug: @"ubdya" revenue: 1244 currency: RevenueCurrencyEUR orderId: @"someOrderId2"];
+    [Metrix newRevenueWithSlug: @"prfrn" revenue:124.0];
+    [Metrix newRevenueWithSlug: @"prfrn" revenue: 12.6 currency: RevenueCurrencyUSD];
+    [Metrix newRevenueWithSlug: @"prfrn" revenue: 32.6 orderId: @"someOrderId"];
+    [Metrix newRevenueWithSlug: @"prfrn" revenue: 1244 currency: RevenueCurrencyEUR orderId: @"someOrderId2"];
 }
 
 - (IBAction)getAttributionClick:(id)sender {

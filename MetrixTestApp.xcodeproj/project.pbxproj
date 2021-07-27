@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		128C5B40BAE619B146C7AB9F /* Pods_MetrixTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801182C5A794C1B25DA9851C /* Pods_MetrixTestApp.framework */; };
-		30AF42F68910FEF3893D7335 /* Pods_MetrixTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5B988D25B7A07FA83B363C /* Pods_MetrixTestAppTests.framework */; };
-		3948AAF2B6071C3673C677C9 /* Pods_MetrixTestApp_MetrixTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D521628D89916795976B956C /* Pods_MetrixTestApp_MetrixTestAppUITests.framework */; };
+		237FEEEA32F775A7199665C6 /* Pods_MetrixTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A008AFC32727CEDA3DD70 /* Pods_MetrixTestAppTests.framework */; };
+		7BF0FA3EF1B3CCD17CF12620 /* Pods_MetrixTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461BBE877EE31C24B0174C50 /* Pods_MetrixTestApp.framework */; };
 		88D8CB282511FB3D0096C79C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8CB272511FB3D0096C79C /* AppDelegate.m */; };
 		88D8CB2B2511FB3D0096C79C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8CB2A2511FB3D0096C79C /* SceneDelegate.m */; };
 		88D8CB2E2511FB3D0096C79C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8CB2D2511FB3D0096C79C /* ViewController.m */; };
@@ -19,6 +18,7 @@
 		88D8CB392511FB400096C79C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8CB382511FB400096C79C /* main.m */; };
 		88D8CB432511FB400096C79C /* MetrixTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8CB422511FB400096C79C /* MetrixTestAppTests.m */; };
 		88D8CB4E2511FB400096C79C /* MetrixTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8CB4D2511FB400096C79C /* MetrixTestAppUITests.m */; };
+		9DBABB3266E67AD6C4F8428C /* Pods_MetrixTestApp_MetrixTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29070FEF9A08183BED568173 /* Pods_MetrixTestApp_MetrixTestAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +52,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29070FEF9A08183BED568173 /* Pods_MetrixTestApp_MetrixTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrixTestApp_MetrixTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		461BBE877EE31C24B0174C50 /* Pods_MetrixTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrixTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1798BFCDA413DC19AF8DE0 /* Pods-MetrixTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrixTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-MetrixTestAppTests/Pods-MetrixTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		599BF793F2D7BF5BAA3CCC9D /* Pods-MetrixTestApp-MetrixTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrixTestApp-MetrixTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MetrixTestApp-MetrixTestAppUITests/Pods-MetrixTestApp-MetrixTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		680874C4F5C296652B8E4703 /* Pods-MetrixTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrixTestApp.debug.xcconfig"; path = "Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		801182C5A794C1B25DA9851C /* Pods_MetrixTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrixTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AE6674351EFC6F5DDECFB /* Pods-MetrixTestApp-MetrixTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrixTestApp-MetrixTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MetrixTestApp-MetrixTestAppUITests/Pods-MetrixTestApp-MetrixTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		88D8CB232511FB3D0096C79C /* MetrixTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetrixTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D8CB262511FB3D0096C79C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,10 +76,9 @@
 		88D8CB492511FB400096C79C /* MetrixTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrixTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D8CB4D2511FB400096C79C /* MetrixTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetrixTestAppUITests.m; sourceTree = "<group>"; };
 		88D8CB4F2511FB400096C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B5B988D25B7A07FA83B363C /* Pods_MetrixTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrixTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D521628D89916795976B956C /* Pods_MetrixTestApp_MetrixTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrixTestApp_MetrixTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08080B33F3D3B10A74EA59E /* Pods-MetrixTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrixTestApp.release.xcconfig"; path = "Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		E5FCE7A1175DBBD22EEEB1ED /* Pods-MetrixTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrixTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MetrixTestAppTests/Pods-MetrixTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3A008AFC32727CEDA3DD70 /* Pods_MetrixTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrixTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				128C5B40BAE619B146C7AB9F /* Pods_MetrixTestApp.framework in Frameworks */,
+				7BF0FA3EF1B3CCD17CF12620 /* Pods_MetrixTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30AF42F68910FEF3893D7335 /* Pods_MetrixTestAppTests.framework in Frameworks */,
+				237FEEEA32F775A7199665C6 /* Pods_MetrixTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3948AAF2B6071C3673C677C9 /* Pods_MetrixTestApp_MetrixTestAppUITests.framework in Frameworks */,
+				9DBABB3266E67AD6C4F8428C /* Pods_MetrixTestApp_MetrixTestAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,9 +183,9 @@
 		9A625CE54578D16CDBB3454B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				801182C5A794C1B25DA9851C /* Pods_MetrixTestApp.framework */,
-				D521628D89916795976B956C /* Pods_MetrixTestApp_MetrixTestAppUITests.framework */,
-				9B5B988D25B7A07FA83B363C /* Pods_MetrixTestAppTests.framework */,
+				461BBE877EE31C24B0174C50 /* Pods_MetrixTestApp.framework */,
+				29070FEF9A08183BED568173 /* Pods_MetrixTestApp_MetrixTestAppUITests.framework */,
+				ED3A008AFC32727CEDA3DD70 /* Pods_MetrixTestAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 				88D8CB202511FB3D0096C79C /* Frameworks */,
 				88D8CB212511FB3D0096C79C /* Resources */,
 				882AEC9D258A4C600007EB6E /* Embed Frameworks */,
-				C70BF2F421D30C63B748AA0C /* [CP] Embed Pods Frameworks */,
+				62ED74F70A0C9F3F76B7BED6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,7 +240,7 @@
 				88D8CB452511FB400096C79C /* Sources */,
 				88D8CB462511FB400096C79C /* Frameworks */,
 				88D8CB472511FB400096C79C /* Resources */,
-				D14C41241A9B1877D4202A43 /* [CP] Embed Pods Frameworks */,
+				EABEABF608E9B8E13D679D4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,6 +345,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		62ED74F70A0C9F3F76B7BED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		80E24499D2C36A40BBEE4E3B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,24 +406,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C70BF2F421D30C63B748AA0C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetrixTestApp/Pods-MetrixTestApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D14C41241A9B1877D4202A43 /* [CP] Embed Pods Frameworks */ = {
+		EABEABF608E9B8E13D679D4D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -602,17 +602,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 680874C4F5C296652B8E4703 /* Pods-MetrixTestApp.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97723978W3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MetrixTestApp",
+					"$(PROJECT_DIR)/Pods/Metrix/",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = MetrixTestApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,16 +643,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E08080B33F3D3B10A74EA59E /* Pods-MetrixTestApp.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97723978W3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MetrixTestApp",
+					"$(PROJECT_DIR)/Pods/Metrix/",
 				);
 				INFOPLIST_FILE = MetrixTestApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
