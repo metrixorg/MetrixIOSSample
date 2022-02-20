@@ -23,19 +23,22 @@
 }
 
 - (IBAction)btnSendEvent:(id)sender {
-    [Metrix newEventWithSlug: @"jqgjh" attributes:@{@"name": @"matin"}];
-    [Metrix newEventWithSlug: @"jqgjh"];
+    NSMutableDictionary *myAttributes = [[NSMutableDictionary alloc] init];
+    myAttributes[@"first_name"] = @"Ali";
+    myAttributes[@"last_name"] = @"Bagheri";
+    myAttributes[@"manufacturer"] = @"Nike";
+    myAttributes[@"product_name"] = @"shirt";
+    myAttributes[@"type"] = @"sport";
+    myAttributes[@"size"] = @"large";
+    [MetrixClient newEventWithSlug: @"jqgjh" attributes:myAttributes];
+    [MetrixClient newEventWithSlug: @"jqgjh"];
 }
 
 - (IBAction)sendRevenueClick:(id)sender {
-    [Metrix newRevenueWithSlug: @"prfrn" revenue:124.0];
-    [Metrix newRevenueWithSlug: @"prfrn" revenue: 12.6 currency: RevenueCurrencyUSD];
-    [Metrix newRevenueWithSlug: @"prfrn" revenue: 32.6 orderId: @"someOrderId"];
-    [Metrix newRevenueWithSlug: @"prfrn" revenue: 1244 currency: RevenueCurrencyEUR orderId: @"someOrderId2"];
+    [MetrixClient newRevenueWithSlug: @"prfrn" revenue:124.0];
+    [MetrixClient newRevenueWithSlug: @"prfrn" revenue: 12.6 currency: RevenueCurrencyUSD];
+    [MetrixClient newRevenueWithSlug: @"prfrn" revenue: 32.6 orderId: @"someOrderId"];
+    [MetrixClient newRevenueWithSlug: @"prfrn" revenue: 1244 currency: RevenueCurrencyEUR orderId: @"someOrderId2"];
 }
-
-- (IBAction)getAttributionClick:(id)sender {
-}
-
 
 @end
