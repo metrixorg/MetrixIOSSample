@@ -8,7 +8,7 @@ target 'MetrixTestApp' do
   # Pods for MetrixTestApp
   
   # Add this Pod
-  pod 'Metrix/native', '2.0.1'
+  pod 'Metrix/native', '2.0.3'
 
   target 'MetrixTestAppTests' do
     inherit! :search_paths
